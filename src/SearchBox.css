@@ -1,0 +1,32 @@
+#search_college {
+  width: 60%;
+  margin: 1rem auto;
+}
+
+#search_box {
+  width: 97%;
+  margin: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+#search_college ul {
+  background-color: white;
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 0;
+  margin: auto;
+  position: absolute;
+  z-index: 10;
+  width: 60vw;
+}
+
+#search_college ul > li {
+  padding: 0.75rem 1rem;
+}
+
+#search_college ul > li:hover {
+  background-color: #d4d4d4;
+}
