@@ -30,7 +30,7 @@ function App() {
   }
 
   const fetchResults = async () => {
-    const url = `http://localhost:3000/college?school_name=${schoolName}`;
+    const url = `https://entera-api-d7d02bcf3d5e.herokuapp.com//college?school_name=${schoolName}`;
       try {
       const response = await fetch(url);
       if (!response.ok) {
